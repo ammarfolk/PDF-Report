@@ -41,7 +41,7 @@ const avrgScoreDiagramData = {
 	labels: newlabelData ,
 	datasets: [
 		{
-			label: "courses",
+			label: "Average Score",
 			data: newScoreData,
 			backgroundColor: ['#ff6464', ' #ffbd67', '#f8fe85', '#5be7a9'],
       hoverOffset: 0,

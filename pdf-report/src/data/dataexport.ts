@@ -5,6 +5,10 @@ const newData = data.data.courseDashboard.modules;
 
 //avrg score
 
+
+
+
+
 const avrgData: any = newData.map((object) => object.goals);
 
 let newlabelData: string[] = [];
@@ -29,44 +33,65 @@ avrgData.forEach((object: any[]) => {
 // console.log(avrgDataTitle);
 console.log('avrgscore: ', newScoreData);
 
+const titleData = data.data.courseDashboard.modules;
+const subData: string[] = titleData.map((object: any) =>
+  object.title ? object.title : "");
 
 const avrgScoreDiagramData = {
 	labels: newlabelData ,
 	datasets: [
 		{
-			label: "Course",
+			label: subData,
 			data: newScoreData,
-			backgroundColor: ['#00005C', '#3B185F', '#C060A1', '#F0CAA3', '#DC3535', '#FFE15D', '#FF8FB1'],
-			borderColor: '#3c2f2f'
-		}
+			backgroundColor: ['#00005C', '#3B185F', '#C060A1'],
+      hoverOffset: 0,
+    }
 	],
-  options: {
-    responsive:true,
-    maintainAspectRatio: false
-    
-}
+
 }  
   
 
 export { avrgScoreDiagramData}    
   
-/*     for (const categoryTypeName of categoryData) {
-      categoryCount[categoryTypeName] = categoryCount[categoryTypeName]
-        ? categoryCount[categoryTypeName] + 1
-        : 1;
-    }
-    return categoryCount; */
+/*    import data from "./data.json";
+
+const colors = [
+  "rgb(255, 99, 132)",
+  "rgb(255, 159, 64)",
+  "rgb(255, 205, 86)",
+  "rgb(75, 192, 192)",
+  "rgb(54, 162, 235)",
+  "rgb(153, 102, 255)",
+];
+
+function avrgScore() {
+  let avrg: any = {};
+  const newData = data.data.courseDashboard.modules{goals:any};
+  const subData: string[] = newData.map((object: any) =>
+    object.title ? object.title : ""
+  );
+
+  console.log(avrg);
+  for (const avrgdata of subData) {
+    avrg[avrgdata] = avrg[avrgdata] ? avrg[avrgdata] +1: 1;
+  }
+  return avrg;
   
   
-/*   const categoryStats = avrgScore();
-  const ByCategoryData = {
-    labels: Object.keys(categoryStats),
-    datasets: [
-      {
-        label: "Winners by category",
-        data: Object.values(categoryStats),
-        backgroundColor: colors,
-        hoverOffset: 0,
-      },
-    ],
-  }; */
+}
+
+const avrgStats = avrgScore();
+const avrgScoreDiagramData = {
+  labels: Object.keys(avrgStats),
+  datasets: [
+    {
+      label: "avrg",
+      data: Object.values(avrgStats),
+      backgroundColor: colors,
+      hoverOffset: 0,
+    },
+  ],
+};
+
+export { avrgScoreDiagramData };
+ */

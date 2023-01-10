@@ -1,0 +1,239 @@
+{
+	"data": {
+		"courseDashboard": {
+			"totals": {
+				"modules": 5,
+				"moduleGoals": 10,
+				"moduleGoalAssessments": 268,
+				"activities": 21,
+				"activityAssessments": 647,
+				"avgActivityAssessmentScore": 2.7,
+				"avgModuleGoalAssessmentScore": 89.0,
+				"members": 34
+			},
+			"course": {
+				"title": "JS - HTML & CSS"
+			},
+			"members": [],
+			"modules": [
+				{
+					"id": "3zbs",
+					"title": "Examination: Gruppuppgift",
+					"goals": []
+				},
+				{
+					"id": "922b",
+					"title": "Intro till HTML",
+					"goals": [
+						{
+							"id": "io5j",
+							"text": "Kunna använda de vanligaste HTML-taggarna",
+							"assessed": 32,
+							"avgScore": 94.0
+						},
+						{
+							"id": "olx5",
+							"text": "Förståelse för hur HTML-sidor hänger ihop",
+							"assessed": 33,
+							"avgScore": 91.0
+						},
+						{
+							"id": "xt2t",
+							"text": "Bygga upp en webbsida med HTML",
+							"assessed": 33,
+							"avgScore": 94.0
+						}
+					]
+				},
+				{
+					"id": "ad95",
+					"title": "CSS Grid",
+					"goals": [
+						{
+							"id": "52kj",
+							"text": " Kunna ge feedback på någon annans kod",
+							"assessed": 26,
+							"avgScore": 73.0
+						},
+						{
+							"id": "6hwl",
+							"text": "Förståelse för och kunna använda CSS Grid",
+							"assessed": 27,
+							"avgScore": 86.0
+						},
+						{
+							"id": "kvtq",
+							"text": "Förståelse för skillnaden mellan CSS Grid och flexbox och när vilken teknik lämpar sig bäst",
+							"assessed": 27,
+							"avgScore": 85.0
+						},
+						{
+							"id": "ocfi",
+							"text": "Kunna bygga mer komplexa layouter med hjälp av CSS Grid",
+							"assessed": 26,
+							"avgScore": 83.0
+						}
+					]
+				},
+				{
+					"id": "drso",
+					"title": "Intro till CSS",
+					"goals": [
+						{
+							"id": "bvp0",
+							"text": "Kunna koppla ihop HTML med CSS",
+							"assessed": 29,
+							"avgScore": 95.0
+						},
+						{
+							"id": "d6cb",
+							"text": "Kunna styla en enklare sida",
+							"assessed": 29,
+							"avgScore": 95.0
+						}
+					]
+				},
+				{
+					"id": "ghi4",
+					"title": "Flexbox",
+					"goals": [
+						{
+							"id": "5z8p",
+							"text": "Kunna bygga mer komplexa layouter med hjälp av flexbox",
+							"assessed": 6,
+							"avgScore": 92.0
+						}
+					]
+				}
+			],
+			"activities": [
+				{
+					"title": "Examination: Gruppuppgift",
+					"type": "examination",
+					"assessed": 29,
+					"avgScore": 2.8275862068965516
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 17,
+					"avgScore": 2.6470588235294117
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 27,
+					"avgScore": 2.5555555555555554
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 17,
+					"avgScore": 2.7058823529411766
+				},
+				{
+					"title": "Koncept: HTML",
+					"type": "async",
+					"assessed": 37,
+					"avgScore": 2.810810810810811
+				},
+				{
+					"title": "Kodexempel: HTML",
+					"type": "async",
+					"assessed": 37,
+					"avgScore": 2.7567567567567566
+				},
+				{
+					"title": "Koncept: Sökvägar",
+					"type": "async",
+					"assessed": 36,
+					"avgScore": 2.861111111111111
+				},
+				{
+					"title": "Livetillfälle: Feedback friday",
+					"type": "sync",
+					"assessed": 27,
+					"avgScore": 2.5555555555555554
+				},
+				{
+					"title": "Koncept: CSS Grid",
+					"type": "async",
+					"assessed": 33,
+					"avgScore": 2.4545454545454546
+				},
+				{
+					"title": "Livetillfälle: Startup monday",
+					"type": "sync",
+					"assessed": 28,
+					"avgScore": 2.642857142857143
+				},
+				{
+					"title": "Kodexempel: CSS Grid",
+					"type": "async",
+					"assessed": 32,
+					"avgScore": 2.46875
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 33,
+					"avgScore": 2.6363636363636362
+				},
+				{
+					"title": "Mindset: Att bygga en layout",
+					"type": "async",
+					"assessed": 33,
+					"avgScore": 2.515151515151515
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 31,
+					"avgScore": 2.774193548387097
+				},
+				{
+					"title": "Koncept: CSS",
+					"type": "async",
+					"assessed": 36,
+					"avgScore": 2.7222222222222223
+				},
+				{
+					"title": "Kodexempel: CSS",
+					"type": "async",
+					"assessed": 35,
+					"avgScore": 2.657142857142857
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 34,
+					"avgScore": 2.676470588235294
+				},
+				{
+					"title": "Livetillfälle: Feedback friday",
+					"type": "sync",
+					"assessed": 29,
+					"avgScore": 2.586206896551724
+				},
+				{
+					"title": "Kodexempel: Flexbox",
+					"type": "async",
+					"assessed": 33,
+					"avgScore": 2.5454545454545454
+				},
+				{
+					"title": "Livetillfälle",
+					"type": "sync",
+					"assessed": 30,
+					"avgScore": 2.6666666666666665
+				},
+				{
+					"title": "Koncept: Flexbox",
+					"type": "async",
+					"assessed": 33,
+					"avgScore": 2.6363636363636362
+				}
+			]
+		}
+	}
+}

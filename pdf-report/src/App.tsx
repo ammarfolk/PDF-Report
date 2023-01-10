@@ -1,9 +1,16 @@
 import './App.css'
-import data from "./data/data.json"
+import "chart.js/auto";
+import data from "./data/data.json";
+import { Bar } from "react-chartjs-2";
 
 function App() {
+ 
+    let avrg: String;
+const newData = Object.keys(data)
 
-console.log(data);
+  const avrgData: string[] = newData.map((object) => object);
+console.log(avrgData);
+
 
   return (
     <div className="wrapper">

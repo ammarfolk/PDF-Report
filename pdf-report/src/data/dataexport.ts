@@ -43,11 +43,10 @@ const avrgScoreDiagramData = {
 		{
 			label: "courses",
 			data: newScoreData,
-			backgroundColor: ['#00005C', '#3B185F', '#C060A1'],
+			backgroundColor: ['#ff6464', ' #ffbd67', '#f8fe85', '#5be7a9'],
       hoverOffset: 0,
     }
 	],
-
 }  
   
 

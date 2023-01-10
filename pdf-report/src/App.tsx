@@ -11,7 +11,10 @@ function App() {
     <div className="wrapper">
       <h1>pdf report</h1>
       <p>intro/info</p>
-      <Bar className="chart" data={avrgScoreDiagramData} />
+      <section className="chart">
+      <Bar  data={avrgScoreDiagramData} />
+      </section>
+      
     </div>
   )
 }

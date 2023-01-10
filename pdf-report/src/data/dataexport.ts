@@ -35,13 +35,13 @@ console.log('avrgscore: ', newScoreData);
 
 const titleData = data.data.courseDashboard.modules;
 const subData: string[] = titleData.map((object: any) =>
-  object.title ? object.title : "");
+  object.title ? object.title : null);
 
 const avrgScoreDiagramData = {
 	labels: newlabelData ,
 	datasets: [
 		{
-			label: subData,
+			label: "courses",
 			data: newScoreData,
 			backgroundColor: ['#00005C', '#3B185F', '#C060A1'],
       hoverOffset: 0,
